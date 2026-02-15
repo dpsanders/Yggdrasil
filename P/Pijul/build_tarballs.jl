@@ -43,7 +43,6 @@ platforms = [
 
     # FreeBSD:
     Platform("x86_64", "freebsd"; ),
-    Platform("aarch64", "freebsd"; ),
 
     # Windows:
     Platform("i686", "windows"; ),
