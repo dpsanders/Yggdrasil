@@ -17,7 +17,7 @@ cd $WORKSPACE/srcdir
 tar xzvf download
 cd pijul-*
 
-# Ensure that the `openssl` crate picks up the intended library
+# Ensure that the `openssl` crate picks up the intended OpenSSL library
 # https://docs.rs/openssl/0.10.75/openssl/#manual
 # export OPENSSL_DIR="$prefix"
 
@@ -52,7 +52,6 @@ platforms = [
 # The products that we will ensure are always built
 products = [
     ExecutableProduct("pijul", :pijul),
-    # LibraryProduct("libpijul", :libpijul), # TODO: Build the LibraryProduct
 ]
 
 # Dependencies that must be installed before this package can be built
