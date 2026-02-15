@@ -19,7 +19,7 @@ cd pijul-*
 
 # Ensure that the `openssl` crate picks up the intended library
 # https://docs.rs/openssl/0.10.75/openssl/#manual
-export OPENSSL_DIR="$prefix"
+# export OPENSSL_DIR="$prefix"
 
 # Build Pijul
 cargo build --release
