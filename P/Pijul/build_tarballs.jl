@@ -14,8 +14,8 @@ sources = [
 # Bash recipe for building across all platforms
 script = raw"""
 cd $WORKSPACE/srcdir
-tar xzvf download 
-cd "pijul-$(true_upstream_version)/"
+tar xzvf download
+cd pijul-*
 
 # Ensure that the `openssl` crate picks up the intended library
 # https://docs.rs/openssl/0.10.75/openssl/#manual
