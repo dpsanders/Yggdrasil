@@ -42,7 +42,7 @@ platforms = [
     Platform("aarch64", "macos"; ),
 
     # FreeBSD:
-    Platform("x86_64", "freebsd"; ),
+    # Platform("x86_64", "freebsd"; ),
 
     # Windows:
     Platform("i686", "windows"; ),
